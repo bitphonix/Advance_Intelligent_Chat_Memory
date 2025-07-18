@@ -45,19 +45,19 @@ A sophisticated chat memory management system that maintains context across unli
 
 ### Interactive Chat
 ```bash
-python src/interactive_chat.py
+python -m src.interactive_chat
 ```
 
 ### Testing Components
 ```bash
 # Test memory systems
-python src/memory_systems.py
+python -m src.memory_systems
 
 # Test conversation manager
-python src/conversation_manager.py
+python -m src.conversation_manager
 
 # Test token counter
-python src/token_counter.py
+python -m src.token_counter
 ```
 
 ### Available Commands
@@ -130,11 +130,6 @@ The system includes comprehensive testing for:
 - Token optimization
 - Error handling
 - Model switching
-
-Run tests with:
-```bash
-python -m pytest tests/  # If you add test files
-```
 
 ## Skills Demonstrated
 
